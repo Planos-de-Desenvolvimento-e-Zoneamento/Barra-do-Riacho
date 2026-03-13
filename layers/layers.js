@@ -1,5 +1,5 @@
 ol.proj.proj4.register(proj4);
-//ol.proj.get("EPSG:4326").setExtent([-40.076806, -19.858520, -40.020462, -19.823904]);
+//ol.proj.get("EPSG:4326").setExtent([-40.073476, -19.850744, -40.037520, -19.832472]);
 var wms_layers = [];
 
 
@@ -859,7 +859,7 @@ var group_AcessosRodoviriosExternos = new ol.layer.Group({
                                 title: 'Acessos Rodoviários Externos '});
 var group_AcessosRodoviriosInternos = new ol.layer.Group({
                                 layers: [lyr_AcessosRodoviriosInternosLongoPrazo_16,lyr_AcessosRodoviriosInternosMdioPrazo_17,lyr_AcessosRodoviriosInternosCurtoPrazo_18,lyr_AcessosRodoviriosInternosSituaoAtual_19,],
-                                fold: 'close',
+                                fold: 'open',
                                 title: 'Acessos Rodoviários Internos '});
 var group_AcessosFerroviriosExternos = new ol.layer.Group({
                                 layers: [lyr_AcessosFerroviriosExternos_15,],
